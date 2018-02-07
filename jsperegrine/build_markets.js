@@ -1,4 +1,3 @@
-// Note: this is untested
 const fs = require('fs');
 
 
@@ -33,17 +32,4 @@ async function get_collections(exchange_list) {
     }
 
     return [collections, singularly_available_markets]
-}
-
-async function add_exchange_to_collection(exchange) {
-    await exchange.loadMarkets();
-    var symbols = exchange.symbols;
-    symbols.forEach()
-}
-// let all_exchanges = ccxt.exchanges;
-
-function build_all_collections(exchange_list, write, ccxt_errors) {
-    async.each(exchange_list, function(exchange) {
-
-    }, callback);
 }

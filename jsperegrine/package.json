@@ -1,0 +1,24 @@
+{
+  "name": "peregrine",
+  "version": "0.1.0",
+  "description": "Detects arbitrage opportunities across over 90 cryptocurrency markets in 31 countries Edit",
+  "main": "inex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wardbradt/peregrine-scout.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "arbitrage",
+    "ccxt"
+  ],
+  "author": "Ward Bradt",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wardbradt/peregrine-scout/issues"
+  },
+  "homepage": "https://github.com/wardbradt/peregrine-scout#readme"
+}
